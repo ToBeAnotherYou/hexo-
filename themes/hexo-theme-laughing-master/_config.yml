@@ -1,0 +1,41 @@
+# Icon
+favicon: /imgs/favicon.ico
+# SEO
+keywords: Hexo, Gruntjs, Nodejs, Reactjs, Vuejs
+# Header
+page_background: /imgs/head.jpg
+page_menu_button: light
+post_background: /imgs/head.jpg
+post_menu_button: light
+title_plancehold: ToAnotherYou
+author:
+  head: /imgs/biaoti.jpg
+  signature: 不要温和的走进那个良夜.
+navication:
+  - name: Github
+    link: https://github.com
+  - name: V2EX
+    link: https://www.v2ex.com/
+# content
+content_width: 800
+# Footer
+## Social icon list: [facebook, twitter, weibo, wechat, github, stackoverflow, linkin, email, segmentfault, flickr, zhihu, disqus, douban, bilibili]
+social:
+  - name: Github
+    icon: github
+    link: https://github.com/BoizZ
+  - name: Weibo
+    icon: weibo
+    link: https://weibo.com/heqibang
+  - name: SegmentFault
+    icon: segmentfault
+    link: https://www.segmentfault.com/u/bon
+# Duoshuo
+duoshuo:
+  enable: true
+  siteName: ueibo
+# Copyright
+copyright:
+  record: false
+  hexo: false
+  laughing: false
