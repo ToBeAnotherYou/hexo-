@@ -5,6 +5,7 @@ tags:
 ---
 [TOC]
 
+
 ## 语法测试
 
 ### 测试 ###
@@ -23,6 +24,9 @@ if __name__ == '__main__':
 ### 图片语法 ###
 
 ![测试](<http://www.panfuhao.top/imgs/biaoti.jpg>)
-
+<%- toc(page.content, {
+        class: 'post-toc',
+        list_number: true
+    }) %>
 
 
