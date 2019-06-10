@@ -14,3 +14,10 @@ if __name__ == '__main__':
     # A comment
     print 'hello world'
 ```
+
+### 图片语法 ###
+
+![测试](<http://www.panfuhao.top/imgs/biaoti.jpg>)
+
+
+
