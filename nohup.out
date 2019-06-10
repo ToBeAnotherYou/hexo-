@@ -2,3 +2,89 @@ INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+ERROR Process failed: _posts/测试hexo博客.md
+YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
+    
+    ^
+    at generateError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)
+    at throwError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)
+    at readBlockMapping (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1073:9)
+    at composeNode (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)
+    at readDocument (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)
+    at loadDocuments (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)
+    at Object.load (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)
+    at parseYAML (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at /root/panboke/node_modules/hexo/lib/plugins/processor/post.js:51:20
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/panboke/node_modules/bluebird/js/release/promise.js:514:35)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/root/panboke/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/root/panboke/node_modules/bluebird/js/release/promise.js:643:18)
+    at PromiseArray._resolve (/root/panboke/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/root/panboke/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/root/panboke/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/root/panboke/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:571:21)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+INFO  Start processing
+ERROR Process failed: _posts/测试hexo博客.md
+YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
+    
+    ^
+    at generateError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)
+    at throwError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)
+    at readBlockMapping (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1073:9)
+    at composeNode (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)
+    at readDocument (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)
+    at loadDocuments (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)
+    at Object.load (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)
+    at parseYAML (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at /root/panboke/node_modules/hexo/lib/plugins/processor/post.js:51:20
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/panboke/node_modules/bluebird/js/release/promise.js:514:35)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/root/panboke/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/root/panboke/node_modules/bluebird/js/release/promise.js:643:18)
+    at PromiseArray._resolve (/root/panboke/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/root/panboke/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/root/panboke/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/root/panboke/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:571:21)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+ERROR Process failed: _posts/测试hexo博客.md
+YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
+    
+    ^
+    at generateError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)
+    at throwError (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)
+    at readBlockMapping (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1073:9)
+    at composeNode (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)
+    at readDocument (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)
+    at loadDocuments (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)
+    at Object.load (/root/panboke/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)
+    at parseYAML (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/root/panboke/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at /root/panboke/node_modules/hexo/lib/plugins/processor/post.js:51:20
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/panboke/node_modules/bluebird/js/release/promise.js:514:35)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/root/panboke/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/root/panboke/node_modules/bluebird/js/release/promise.js:643:18)
+    at PromiseArray._resolve (/root/panboke/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/root/panboke/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/root/panboke/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/root/panboke/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:571:21)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)

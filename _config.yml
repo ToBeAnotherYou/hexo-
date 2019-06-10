@@ -79,3 +79,5 @@ theme: hexo-theme-laughing-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+toc:
+  maxDepth: 3
