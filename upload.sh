@@ -41,4 +41,5 @@ bendi
 echo '服务器从git拉取代码.............'
 fuwuqi
 echo '操作完成。。。。。'
-done
+done '按任意键退出...............'
+read
