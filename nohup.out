@@ -88,3 +88,35 @@ YAMLException: can not read a block mapping entry; a multiline key may not be an
     at PromiseArray.init [as _init] (/root/panboke/node_modules/bluebird/js/release/promise_array.js:78:10)
     at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:571:21)
     at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)

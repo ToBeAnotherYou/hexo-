@@ -13,7 +13,7 @@ author:
   signature: 不要温和的走进那个良夜.
 navication:
   - name: Github
-    link: https://github.com
+    link: https://github.com/panfuhao/hexo-
   - name: V2EX
     link: https://www.v2ex.com/
 # content
@@ -23,10 +23,7 @@ content_width: 800
 social:
   - name: Github
     icon: github
-    link: https://github.com/BoizZ
-  - name: Weibo
-    icon: weibo
-    link: https://weibo.com/heqibang
+    link: https://github.com/panfuhao/hexo-
   - name: SegmentFault
     icon: segmentfault
     link: https://www.segmentfault.com/u/bon
