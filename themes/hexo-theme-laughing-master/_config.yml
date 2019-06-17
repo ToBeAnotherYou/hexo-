@@ -12,10 +12,20 @@ author:
   head: /imgs/biaoti.jpg
   signature: 不要温和的走进那个良夜.
 navication:
-  - name: Github
-    link: https://github.com/panfuhao/hexo-
-  - name: V2EX
-    link: https://www.v2ex.com/
+#  - name: Github
+#    link: https://github.com/panfuhao/hexo-
+#  - name: V2EX
+#    link: https://www.v2ex.com/
+#  - name: 主页
+#    link: /
+   - name: 分类
+     link: /categories
+   - name: 归档
+     link: /archives
+   - name: 标签
+     link: /tags
+   - name: 关于我
+     link: /about
 # content
 content_width: 800
 # Footer
