@@ -8,6 +8,7 @@ PASSWORD=$(pwd)/'pass.txt'
 bendi(){
 	echo '本地更新代码并提交代码'
 	cd $RELEASE_BOKEBENDI
+	git pull
 	echo '提交代码到本地.......'
 	git add .
 	git commit -m "脚本提交代码">>commit.log
