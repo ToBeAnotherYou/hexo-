@@ -13,7 +13,7 @@ tags:
 hexo的更新非常的麻烦,因为是在服务器上生成md文件在编译md文件生成静态文件
 我只需要关心md文件的编辑,但是服务器没有图形界面用vi编辑器很不方便就用git仓库来管理在本地计算机上用工具编辑md文件在上传到git服务器在从git更新在hexo g -d编译一下就可以。为了方便写了一个传并更新编译的脚本
 
-```shell
+```python
 #!/bin/bash
 RELEASE_BOKEBENDI='E:\hexoBoKe\hexo-'
 FUWUQI_BOKE='/root/panboke'
