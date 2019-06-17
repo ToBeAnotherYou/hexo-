@@ -260,3 +260,4 @@ Syntax Error: Unexpected token
     at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:574:18)
     at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
 Warning: Unexpected block undefined on line undefined + of undefined. This warning will be an error in v2.0.0
+Warning: Unexpected block undefined on line undefined + of undefined. This warning will be an error in v2.0.0
