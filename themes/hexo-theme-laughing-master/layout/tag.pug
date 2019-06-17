@@ -8,6 +8,7 @@ block title
      title= __('archive') + " | " + config.title
 
 block content
+  include ./_partial/post_header.pug
   //- .post__achive
   //-   each posts, year in _.groupBy(page.posts.toArray(), p => - p.date.format('YYYY'))
   //-     h2= -year
