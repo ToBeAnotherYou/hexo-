@@ -224,3 +224,5 @@ URIError: URI malformed
     at Server.emit (events.js:200:13)
     at parserOnIncoming (_http_server.js:713:12)
     at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
