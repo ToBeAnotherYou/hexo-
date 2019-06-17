@@ -226,3 +226,36 @@ URIError: URI malformed
     at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+ERROR Process failed: layout/tag.pug
+Error: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:12:60
+    10| block content
+    11|   .post__achive
+  > 12|     each posts, year in _.groupBy(page.posts.toArray(), p => - p.date.format('YYYY'))
+-------------------------------------------------------------------^
+    13|       h2= -year
+    14|       ul.achive__list
+    15|         for post in posts
+
+Syntax Error: Unexpected token
+    at makeError (/root/panboke/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/root/panboke/node_modules/pug-lexer/index.js:52:15)
+    at Lexer.assertExpression (/root/panboke/node_modules/pug-lexer/index.js:71:12)
+    at Lexer.each (/root/panboke/node_modules/pug-lexer/index.js:860:12)
+    at Lexer.callLexerFunction (/root/panboke/node_modules/pug-lexer/index.js:1266:23)
+    at Lexer.advance (/root/panboke/node_modules/pug-lexer/index.js:1294:15)
+    at Lexer.callLexerFunction (/root/panboke/node_modules/pug-lexer/index.js:1266:23)
+    at Lexer.getTokens (/root/panboke/node_modules/pug-lexer/index.js:1322:12)
+    at Object.lex (/root/panboke/node_modules/pug-lexer/index.js:12:42)
+    at Function.loadString [as string] (/root/panboke/node_modules/pug-loader/index.js:39:24)
+    at compileBody (/root/panboke/node_modules/pug/lib/index.js:55:18)
+    at Object.exports.compile (/root/panboke/node_modules/pug/lib/index.js:152:16)
+    at Function.pugCompile [as compile] (/root/panboke/node_modules/hexo-renderer-pug/lib/renderer.js:6:16)
+    at Theme._View.View.View._precompile (/root/panboke/node_modules/hexo/lib/theme/view.js:118:31)
+    at Theme._View.View.View (/root/panboke/node_modules/hexo/lib/theme/view.js:14:8)
+    at new Theme._View.View (/root/panboke/node_modules/hexo/lib/theme/index.js:37:10)
+    at Theme.setView (/root/panboke/node_modules/hexo/lib/theme/index.js:71:20)
+    at /root/panboke/node_modules/hexo/lib/theme/processors/view.js:14:14
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/panboke/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/root/panboke/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
