@@ -261,3 +261,124 @@ Syntax Error: Unexpected token
     at Promise._settlePromise0 (/root/panboke/node_modules/bluebird/js/release/promise.js:619:10)
 Warning: Unexpected block undefined on line undefined + of undefined. This warning will be an error in v2.0.0
 Warning: Unexpected block undefined on line undefined + of undefined. This warning will be an error in v2.0.0
+Warning: Unexpected block undefined on line undefined + of undefined. This warning will be an error in v2.0.0
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+Unhandled rejection TypeError: /root/panboke/themes/hexo-theme-laughing-master/layout/tag.pug:15
+    13|           h1.article-sort-item.title= _p('page.tags') + ' - ' + page.tag
+    14|           - var year
+  > 15|           - page.posts.each(function(article){
+    16|               - var tempYear = date(article.date, 'YYYY')
+    17|               if tempYear !== year
+    18|                   - year = tempYear
+
+Cannot read property 'each' of undefined
+    at eval (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:152:12)
+    at template (eval at wrap (/root/panboke/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:323:97)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:125:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:30:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:394:29
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:134:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
