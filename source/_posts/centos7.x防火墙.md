@@ -13,15 +13,19 @@ tags: [linux,防火墙]
 firewall-cmd --query-port=8080/tcp
 ```
 ### 开放80端口
-```powershell
+```shell
 firewall-cmd --permanent --add-port=80/tcp
 ```
 ### 移除端口
-```powershell
+```shell
 firewall-cmd --permanent --remove-port=8080/tcp
 ```
+### 列出所有防火墙开发的端口
+```shell
+firewall-cmd --list-all
+```
 ### 重启防火墙(修改配置后要重启防火墙)
-```powershell
+```shell
 firewall-cmd --reload
 ```
 ### 参数解释
