@@ -41,6 +41,8 @@ echo '代码提交到git.....'
 bendi
 echo '服务器从git拉取代码.............'
 fuwuqi
+echo '更新本地和远程一致避免冲突。。。。。。'
+bendi
 echo '操作完成。。。。。'
 echo '按任意键退出...............'
 read
