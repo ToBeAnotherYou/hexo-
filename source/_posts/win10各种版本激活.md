@@ -16,7 +16,8 @@ tags: [windows]
    slmgr.vbs /upk
    ```
    
-#### 打开管理员dos窗口
+
+
 
 2. 安装新密钥
 
