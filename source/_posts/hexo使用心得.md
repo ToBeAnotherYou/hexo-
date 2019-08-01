@@ -17,6 +17,8 @@ hexo的更新非常的麻烦,因为是在服务器上生成md文件在编译md�
 #!/bin/bash
 RELEASE_BOKEBENDI='E:\hexoBoKe\hexo-'
 FUWUQI_BOKE='/root/panboke'
+FUWUQI_URL='47.107.96.22'
+FUWUQI_USER='root'
 cd $RELEASE_BOKEBENDI
 cd ..
 PASSWORD=$(pwd)/'pass.txt'
@@ -24,6 +26,7 @@ PASSWORD=$(pwd)/'pass.txt'
 bendi(){
 	echo '本地更新代码并提交代码'
 	cd $RELEASE_BOKEBENDI
+	git pull
 	echo '提交代码到本地.......'
 	git add .
 	git commit -m "脚本提交代码">>commit.log
@@ -36,7 +39,7 @@ bendi(){
 #上传服务器并刷新
 fuwuqi(){
 echo '连接阿里云服务器。。。。。。'
-ssh root@47.107.96.22 << remotessh
+ssh $FUWUQI_USER@$FUWUQI_URL << remotessh
 	echo '连接上服务器......'
 	cd $FUWUQI_BOKE
 	echo '服务器提交代码到本地'
@@ -56,9 +59,11 @@ echo '代码提交到git.....'
 bendi
 echo '服务器从git拉取代码.............'
 fuwuqi
+echo '更新本地和远程一致避免冲突。。。。。。'
+bendi
 echo '操作完成。。。。。'
-echo '按任意键退出...............'
-read
+echo '按任意键退出...............
+done
 
 ```
 
