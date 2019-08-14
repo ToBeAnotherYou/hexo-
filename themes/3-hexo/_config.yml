@@ -223,7 +223,7 @@ gitalk:
   ClientID:d4efcd43296c9b3c97eb
   ClientSecret:5a2856f41446b24a23f239d361b568ec865b14b7
   adminUser:panfuhao
-  distractionFreeMode: true
+  distractionFreeMode:true
   language: zh-CN
   perPage: 10
 # gitalk：利用github issue制作的第三方聊天插件
