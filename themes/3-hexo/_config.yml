@@ -22,12 +22,12 @@ link:
     #jianshu: https://www.jianshu.com/u/ff56736de7cf
     #zhihu: https://www.zhihu.com/people/jaytp/activities
     csdn:
-    oschina: https://my.oschina.net/yelog
-    juejin:
+    #oschina: https://my.oschina.net/yelog
+    #juejin:
     email: 2536008263@qq.com
     qq: 2536008263
     kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    #neteasemusic: https://music.163.com/#/user/home?id=88151013
 
 ##########多作者模式############
 author:
@@ -125,7 +125,7 @@ article_list:
 # 文章列表背景图
 article_bg_img:
   on: true # 是否开启
-  src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+  src: https://c-ssl.duitang.com/uploads/item/201507/22/20150722121255_te4sx.jpeg
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
 # 列表样式
@@ -145,9 +145,9 @@ table: green_title
 # green_title 头部为青色的table样式
 
 # 首页背景图
-index_bg_img: https://up.enterdesk.com/edpic_source/a3/28/26/a328260e40115380dd73163c0b68678c.jpg
+index_bg_img: /img/backgroundone.jpg
 # 其他页面背景图
-other_bg_img: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565757508599&di=6992ac1e81f4bd0b7986c2c88432712c&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D3801133904%2C976479157%26fm%3D214%26gp%3D0.jpg
+other_bg_img: /img/backgroundtwo.jpg
 
 # 点击图片放大样式
 img_resize: default
