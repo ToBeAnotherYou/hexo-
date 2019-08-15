@@ -220,8 +220,8 @@ gentie:
 gitalk:
   githubID: panfuhao
   repo: hexo-
-  ClientID:577ff7af9b752d94fc14
-  ClientSecret:5178350493947ac9760841fffce09307e3676f63
+  ClientID: 577ff7af9b752d94fc14
+  ClientSecret: 5178350493947ac9760841fffce09307e3676f63
   adminUser: panfuhao
   distractionFreeMode: true
   language: zh-CN
