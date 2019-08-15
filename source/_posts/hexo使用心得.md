@@ -16,9 +16,9 @@ hexo的更新非常的麻烦,因为是在服务器上生成md文件在编译md�
 ```powershell
 #!/bin/bash
 RELEASE_BOKEBENDI='E:\hexoBoKe\hexo-'
-FUWUQI_BOKE='/root/panboke'
-FUWUQI_URL='47.107.96.22'
-FUWUQI_USER='root'
+FUWUQI_BOKE='hexo根目录'
+FUWUQI_URL='ip地址'
+FUWUQI_USER='登录用户'
 cd $RELEASE_BOKEBENDI
 cd ..
 PASSWORD=$(pwd)/'pass.txt'
