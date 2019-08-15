@@ -1,7 +1,7 @@
 version: 1.0.1
 # 你的头像url
-avatar: /img/avatar.jpg
-favicon: /img/avatar.jpg
+avatar: /img/head.jpg
+favicon: /img/head.jpg
 
 #如果博客放置位置不是根目录，则可以通过配置此路径解决静态文件路径错误问题
 # 比如访问地址为 yelog.org/blog 那就需要配置为 blog_path: /blog 才能正常访问
@@ -12,22 +12,22 @@ link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
     rss: /atom.xml
-    github: https://github.com/yelog
-    facebook: https://www.facebook.com/faker.tops
+    github: https://github.com/panfuhao
+    #facebook: https://www.facebook.com/faker.tops
     twitter:
     linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
+    #instagram: https://www.facebook.com/faker.tops
+    #reddit: https://www.reddit.com/user/yelog/
+    #weibo: http://weibo.com/u/2307534817
+    #jianshu: https://www.jianshu.com/u/ff56736de7cf
+    #zhihu: https://www.zhihu.com/people/jaytp/activities
     csdn:
-    oschina: https://my.oschina.net/yelog
-    juejin:
-    email: jaytp@qq.com
-    qq: 872336115
+    #oschina: https://my.oschina.net/yelog
+    #juejin:
+    email: 2536008263@qq.com
+    qq: 2536008263
     kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    #neteasemusic: https://music.163.com/#/user/home?id=88151013
 
 ##########多作者模式############
 author:
@@ -70,20 +70,20 @@ menu:
       type: 2  # 跳转类型 2：当前页面跳转
     github:
       on: false
-      url: https://github.com/yelog
+      url: https://github.com/panfuhao
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com
+article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 2536008263@qq.com
 
-bottom_text: ©2016-2019 Yelog
+bottom_text: ©2019-2019 panfuhao
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
 reward: true
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -96,7 +96,7 @@ searchAll: false
 copyright: true
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -125,7 +125,7 @@ article_list:
 # 文章列表背景图
 article_bg_img:
   on: true # 是否开启
-  src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+  src: https://c-ssl.duitang.com/uploads/item/201507/22/20150722121255_te4sx.jpeg
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
 # 列表样式
@@ -145,9 +145,9 @@ table: green_title
 # green_title 头部为青色的table样式
 
 # 首页背景图
-index_bg_img:
+index_bg_img: 
 # 其他页面背景图
-other_bg_img:
+other_bg_img: 
 
 # 点击图片放大样式
 img_resize: default
@@ -194,11 +194,11 @@ mathjax:
 
 # 友情链接
 friends:
-  叶落阁: http://yelog.org/
+  到另一个你的身边: http://www.panfuhao.top/
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
   preload_comment: false  # 预加载评论区
@@ -218,13 +218,13 @@ gentie:
   # 网易云跟帖暂时不支持查询评论数，所以启用时，把评论数关掉，上方comment_count: false。
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
-  ClientID:
-  ClientSecret:
-  adminUser: yelog
-  distractionFreeMode: true
-  language: zh-CN
+  githubID:panfuhao
+  repo:panfuhao.github.io
+  ClientID:d4efcd43296c9b3c97eb
+  ClientSecret:5a2856f41446b24a23f239d361b568ec865b14b7
+  adminUser:panfuhao
+  distractionFreeMode:true
+  language:zh-CN
   perPage: 10
 # gitalk：利用github issue制作的第三方聊天插件
 # https://github.com/gitalk/gitalk
