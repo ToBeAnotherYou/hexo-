@@ -1510,3 +1510,99 @@ YAMLException: can not read a block mapping entry; a multiline key may not be an
     at Immediate.Async.drainQueues [as _onImmediate] (/root/panboke/node_modules/bluebird/js/release/async.js:17:14)
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+Unhandled rejection TypeError: /root/panboke/themes/3-hexo/layout/post.ejs:3
+    1| <!DOCTYPE html>
+    2| <html>
+ >> 3| <%- partial('_partial/header') %>
+    4| <body>
+    5| <aside class="nav">
+    6|     <div class="nav-left">
+
+/root/panboke/themes/3-hexo/layout/_partial/header.ejs:6
+    4|   <meta name="keywords" content="<% if (page.tags && page.tags.length){ page.tags.forEach(function(tag, i){%> <%=tag.name%> <% if (i+1<page.tags.length){%>,<%} })}%>">
+    5|   <meta name="description" content="<% if (page.title){ %><%= page.title %> | <% } %><%= config.title %>">
+ >> 6|     <%- fragment_cache('meta', function(){
+    7|       return partial('_partial/meta');
+    8|     }) %>
+    9| </head>
+
+/root/panboke/themes/3-hexo/layout/_partial/meta.ejs:13
+    11| <link href="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/css/hl_theme/<%=theme.highlight.theme %>.css?v=<%=theme.version%>" rel="stylesheet">
+    12| <%}%>
+ >> 13| <link href="<%=theme.CDN.animate %>" rel="stylesheet">
+    14| <link href="<%=theme.CDN.font_awsome %>" rel="stylesheet">
+    15| <% if (theme.img_resize == 'photoSwipe') {%>
+    16| <link href="<%=theme.CDN.photoswipe_css%>" rel="stylesheet">
+
+Cannot read property 'animate' of undefined
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:52:35)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiledSync (/root/panboke/node_modules/hexo/lib/theme/view.js:119:22)
+    at Theme._View.View.View.renderSync (/root/panboke/node_modules/hexo/lib/theme/view.js:48:23)
+    at Object.partial (/root/panboke/node_modules/hexo/lib/plugins/helper/partial.js:34:15)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:35:14)
+    at Object.fragmentCache (/root/panboke/node_modules/hexo/lib/plugins/helper/fragment_cache.js:9:32)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:34:17)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiledSync (/root/panboke/node_modules/hexo/lib/theme/view.js:119:22)
+    at Theme._View.View.View.renderSync (/root/panboke/node_modules/hexo/lib/theme/view.js:48:23)
+    at Object.partial (/root/panboke/node_modules/hexo/lib/plugins/helper/partial.js:34:15)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:11:17)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:123:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:29:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:349:21
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:123:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+Unhandled rejection TypeError: /root/panboke/themes/3-hexo/layout/index.ejs:3
+    1| <!DOCTYPE html>
+    2| <html>
+ >> 3| <%- partial('_partial/header') %>
+    4| <body>
+    5| <aside class="nav mobile">
+    6|     <div class="nav-left">
+
+/root/panboke/themes/3-hexo/layout/_partial/header.ejs:6
+    4|   <meta name="keywords" content="<% if (page.tags && page.tags.length){ page.tags.forEach(function(tag, i){%> <%=tag.name%> <% if (i+1<page.tags.length){%>,<%} })}%>">
+    5|   <meta name="description" content="<% if (page.title){ %><%= page.title %> | <% } %><%= config.title %>">
+ >> 6|     <%- fragment_cache('meta', function(){
+    7|       return partial('_partial/meta');
+    8|     }) %>
+    9| </head>
+
+/root/panboke/themes/3-hexo/layout/_partial/meta.ejs:13
+    11| <link href="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/css/hl_theme/<%=theme.highlight.theme %>.css?v=<%=theme.version%>" rel="stylesheet">
+    12| <%}%>
+ >> 13| <link href="<%=theme.CDN.animate %>" rel="stylesheet">
+    14| <link href="<%=theme.CDN.font_awsome %>" rel="stylesheet">
+    15| <% if (theme.img_resize == 'photoSwipe') {%>
+    16| <link href="<%=theme.CDN.photoswipe_css%>" rel="stylesheet">
+
+Cannot read property 'animate' of undefined
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:52:35)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiledSync (/root/panboke/node_modules/hexo/lib/theme/view.js:119:22)
+    at Theme._View.View.View.renderSync (/root/panboke/node_modules/hexo/lib/theme/view.js:48:23)
+    at Object.partial (/root/panboke/node_modules/hexo/lib/plugins/helper/partial.js:34:15)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:35:14)
+    at Object.fragmentCache (/root/panboke/node_modules/hexo/lib/plugins/helper/fragment_cache.js:9:32)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:34:17)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiledSync (/root/panboke/node_modules/hexo/lib/theme/view.js:119:22)
+    at Theme._View.View.View.renderSync (/root/panboke/node_modules/hexo/lib/theme/view.js:48:23)
+    at Object.partial (/root/panboke/node_modules/hexo/lib/plugins/helper/partial.js:34:15)
+    at eval (eval at compile (/root/panboke/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:11:17)
+    at returnedFn (/root/panboke/node_modules/ejs/lib/ejs.js:653:17)
+    at Theme._View.View._compiled (/root/panboke/node_modules/hexo/lib/theme/view.js:123:48)
+    at Theme._View.View.View.render (/root/panboke/node_modules/hexo/lib/theme/view.js:29:15)
+    at /root/panboke/node_modules/hexo/lib/hexo/index.js:349:21
+    at tryCatcher (/root/panboke/node_modules/bluebird/js/release/util.js:16:23)
+    at /root/panboke/node_modules/bluebird/js/release/method.js:15:34
+    at RouteStream._read (/root/panboke/node_modules/hexo/lib/hexo/router.js:123:3)
+    at RouteStream.Readable.read (_stream_readable.js:474:10)
+    at resume_ (_stream_readable.js:953:12)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
