@@ -1,7 +1,11 @@
 ---
 title: hexo使用心得
 date: 2019-06-17 09:14:44
-tags: [hexo,测试]
+categories:
+- 脚本
+tags: 
+- linux
+- hexo
 ---
 
 <!-- toc -->
