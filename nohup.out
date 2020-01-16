@@ -1606,3 +1606,146 @@ Cannot read property 'animate' of undefined
     at resume_ (_stream_readable.js:953:12)
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/route.js:18:28
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at /root/panboke/node_modules/hexo-server/lib/middlewares/header.js:9:5
+    at call (/root/panboke/node_modules/connect/index.js:239:7)
+    at next (/root/panboke/node_modules/connect/index.js:183:5)
+    at Function.handle (/root/panboke/node_modules/connect/index.js:186:3)
+    at Server.app (/root/panboke/node_modules/connect/index.js:51:37)
+    at Server.emit (events.js:200:13)
+    at parserOnIncoming (_http_server.js:713:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
