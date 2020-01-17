@@ -46,3 +46,7 @@ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
+3. #### 安装最新版docker
+```shel
+yum install docker-ce docker-ce-cli containerd.iol
+```
